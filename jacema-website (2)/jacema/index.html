@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacema Global Services | Professional Facilities Management</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Loader -->
+    <div id="loader">
+        <div class="loader-inner">
+            <div class="loader-logo">JGS</div>
+            <div class="loader-bar"><span></span></div>
+        </div>
+    </div>
+
+    <!-- Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <header id="header">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon"><i class="fa-solid fa-leaf"></i></span>
+                <div class="logo-text">
+                    <strong>JACEMA</strong>
+                    <small>Global Services</small>
+                </div>
+            </div>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="#hero" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                    <li><a href="#contact" class="nav-link nav-cta">Get a Quote</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Nav -->
+    <div class="mobile-nav" id="mobileNav">
+        <div class="mobile-nav-inner">
+            <ul>
+                <li><a href="#hero" class="mob-link">Home</a></li>
+                <li><a href="#about" class="mob-link">About</a></li>
+                <li><a href="#services" class="mob-link">Services</a></li>
+                <li><a href="#portfolio" class="mob-link">Portfolio</a></li>
+                <li><a href="#testimonials" class="mob-link">Reviews</a></li>
+                <li><a href="#contact" class="mob-link">Get a Quote</a></li>
+            </ul>
+            <div class="mob-socials">
+                <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://wa.me/2348000000000" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-bg">
+            <div class="hero-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+            <div class="particles" id="particles"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                Lagos, Nigeria — Est. 2020
+            </div>
+            <h1 class="hero-title">
+                <span class="line">Clean Spaces.</span>
+                <span class="line accent">Clear Minds.</span>
+            </h1>
+            <p class="hero-subtitle">Professional facilities management, post-construction cleaning, fumigation, pest control & landscaping — tailored for estates, offices & homes across Lagos.</p>
+            <div class="hero-actions">
+                <a href="#services" class="btn btn-primary">
+                    <span>Our Services</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    <span>Get a Quote</span>
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <strong>500+</strong>
+                    <span>Projects Done</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <strong>200+</strong>
+                    <span>Happy Clients</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <strong>7+</strong>
+                    <span>Service Areas</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="hero-card-wrap">
+                <div class="hero-image-card">
+                    <div class="hero-img-placeholder main-img">
+                        <div class="img-icon"><i class="fa-solid fa-broom"></i></div>
+                        <p>Post-Construction Cleaning</p>
+                    </div>
+                </div>
+                <div class="hero-float-card card-1">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Certified Team</span>
+                </div>
+                <div class="hero-float-card card-2">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <span>Eco-Safe Products</span>
+                </div>
+                <div class="hero-float-card card-3">
+                    <i class="fa-solid fa-star"></i>
+                    <span>4.9 Rating</span>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-down">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </a>
+    </section>
+
+    <!-- Ticker -->
+    <div class="ticker-wrap">
+        <div class="ticker">
+            <span>Facility Management</span><span class="sep">✦</span>
+            <span>Post-Construction Cleaning</span><span class="sep">✦</span>
+            <span>Fumigation & Pest Control</span><span class="sep">✦</span>
+            <span>Residential Cleaning</span><span class="sep">✦</span>
+            <span>Commercial Cleaning</span><span class="sep">✦</span>
+            <span>Pool Maintenance</span><span class="sep">✦</span>
+            <span>Landscaping</span><span class="sep">✦</span>
+            <span>Facility Management</span><span class="sep">✦</span>
+            <span>Post-Construction Cleaning</span><span class="sep">✦</span>
+            <span>Fumigation & Pest Control</span><span class="sep">✦</span>
+            <span>Residential Cleaning</span><span class="sep">✦</span>
+            <span>Commercial Cleaning</span><span class="sep">✦</span>
+            <span>Pool Maintenance</span><span class="sep">✦</span>
+            <span>Landscaping</span><span class="sep">✦</span>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-visual">
+                    <div class="about-img-main">
+                        <div class="about-placeholder">
+                            <i class="fa-solid fa-building"></i>
+                        </div>
+                    </div>
+                    <div class="about-img-side">
+                        <div class="about-side-placeholder">
+                            <i class="fa-solid fa-spray-can-sparkles"></i>
+                        </div>
+                    </div>
+                    <div class="about-accent-box">
+                        <strong>5+</strong>
+                        <span>Years of Excellence</span>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <div class="section-tag">Who We Are</div>
+                    <h2 class="section-title">Lagos's Most Trusted Facilities Partner</h2>
+                    <p class="about-lead">Jacema Global Services is a professional facilities management and environmental services company built on a foundation of reliability, precision, and genuine care.</p>
+                    <p class="about-body">From transforming raw construction sites into gleaming, livable spaces to maintaining the hygiene standards of premium commercial offices — we do it all with a level of attention that sets us apart.</p>
+                    <div class="about-pillars">
+                        <div class="pillar">
+                            <i class="fa-solid fa-award"></i>
+                            <div>
+                                <strong>Certified Excellence</strong>
+                                <span>Trained staff & certified processes</span>
+                            </div>
+                        </div>
+                        <div class="pillar">
+                            <i class="fa-solid fa-leaf"></i>
+                            <div>
+                                <strong>Eco-Conscious</strong>
+                                <span>Safe, environmentally responsible methods</span>
+                            </div>
+                        </div>
+                        <div class="pillar">
+                            <i class="fa-solid fa-clock"></i>
+                            <div>
+                                <strong>Always Punctual</strong>
+                                <span>We show up — on time, every time</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Work With Us <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">What We Do</div>
+                <h2 class="section-title">Comprehensive Cleaning &<br>Maintenance Services</h2>
+                <p class="section-desc">Every service is delivered with precision, professionalism, and the right tools for the job.</p>
+            </div>
+            <div class="services-grid">
+
+                <div class="service-card" data-index="01">
+                    <div class="service-icon-wrap">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-hard-hat"></i>
+                        </div>
+                    </div>
+                    <div class="service-body">
+                        <span class="service-num">01</span>
+                        <h3>Post-Construction Cleaning</h3>
+                        <p>We transform newly completed construction sites into clean, safe, and habitable environments — dust removal, debris clearance, surface polishing and more.</p>
+                        <ul class="service-list">
+                            <li><i class="fa-solid fa-check"></i> Dust & debris removal</li>
+                            <li><i class="fa-solid fa-check"></i> Window & glass cleaning</li>
+                            <li><i class="fa-solid fa-check"></i> Floor polishing & scrubbing</li>
+                        </ul>
+                    </div>
+                    <div class="service-hover-bg"></div>
+                </div>
+
+                <div class="service-card featured" data-index="02">
+                    <div class="service-icon-wrap">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-building-columns"></i>
+                        </div>
+                    </div>
+                    <div class="service-body">
+                        <span class="service-num">02</span>
+                        <h3>Facility Management</h3>
+                        <p>Comprehensive ongoing maintenance for estates, commercial complexes and corporate facilities. We keep your environment pristine, always.</p>
+                        <ul class="service-list">
+                            <li><i class="fa-solid fa-check"></i> Scheduled cleaning contracts</li>
+                            <li><i class="fa-solid fa-check"></i> Waste management</li>
+                            <li><i class="fa-solid fa-check"></i> Facility inspection reports</li>
+                        </ul>
+                    </div>
+                    <div class="service-hover-bg"></div>
+                </div>
+
+                <div class="service-card" data-index="03">
+                    <div class="service-icon-wrap">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-house-chimney"></i>
+                        </div>
+                    </div>
+                    <div class="service-body">
+                        <span class="service-num">03</span>
+                        <h3>Residential Cleaning</h3>
+                        <p>Deep cleaning, regular upkeep, and move-in/move-out cleans for homes and apartments. Your space, refreshed.</p>
+                        <ul class="service-list">
+                            <li><i class="fa-solid fa-check"></i> Deep cleaning sessions</li>
+                            <li><i class="fa-solid fa-check"></i> Move-in / move-out cleans</li>
+                            <li><i class="fa-solid fa-check"></i> Kitchen & bathroom detailing</li>
+                        </ul>
+                    </div>
+                    <div class="service-hover-bg"></div>
+                </div>
+
+                <div class="service-card" data-index="04">
+                    <div class="service-icon-wrap">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </div>
+                    </div>
+                    <div class="service-body">
+                        <span class="service-num">04</span>
+                        <h3>Commercial Cleaning</h3>
+                        <p>Office spaces, retail outlets and corporate facilities cleaned to the highest standards. Minimal disruption, maximum results.</p>
+                        <ul class="service-list">
+                            <li><i class="fa-solid fa-check"></i> Before / after hours cleaning</li>
+                            <li><i class="fa-solid fa-check"></i> Workstation sanitation</li>
+                            <li><i class="fa-solid fa-check"></i> Common area maintenance</li>
+                        </ul>
+                    </div>
+                    <div class="service-hover-bg"></div>
+                </div>
+
+                <div class="service-card" data-index="05">
+                    <div class="service-icon-wrap">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-bug-slash"></i>
+                        </div>
+                    </div>
+                    <div class="service-body">
+                        <span class="service-num">05</span>
+                        <h3>Fumigation & Pest Control</h3>
+                        <p>Safe, effective fumigation and pest control using certified products. Protect your family and property from pests year-round.</p>
+                        <ul class="service-list">
+                            <li><i class="fa-solid fa-check"></i> Termite treatment</li>
+                            <li><i class="fa-solid fa-check"></i> Rodent control</li>
+                            <li><i class="fa-solid fa-check"></i> Cockroach & mosquito treatment</li>
+                        </ul>
+                    </div>
+                    <div class="service-hover-bg"></div>
+                </div>
+
+                <div class="service-card" data-index="06">
+                    <div class="service-icon-wrap">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-seedling"></i>
+                        </div>
+                    </div>
+                    <div class="service-body">
+                        <span class="service-num">06</span>
+                        <h3>Gardening & Landscaping</h3>
+                        <p>Transform your outdoor spaces with professional gardening, lawn maintenance, and landscape design services.</p>
+                        <ul class="service-list">
+                            <li><i class="fa-solid fa-check"></i> Lawn mowing & trimming</li>
+                            <li><i class="fa-solid fa-check"></i> Garden design & planting</li>
+                            <li><i class="fa-solid fa-check"></i> Irrigation management</li>
+                        </ul>
+                    </div>
+                    <div class="service-hover-bg"></div>
+                </div>
+
+                <div class="service-card" data-index="07">
+                    <div class="service-icon-wrap">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-water"></i>
+                        </div>
+                    </div>
+                    <div class="service-body">
+                        <span class="service-num">07</span>
+                        <h3>Swimming Pool Cleaning</h3>
+                        <p>Regular pool maintenance, chemical balancing, and deep cleans to keep your pool safe, sparkling, and ready to use.</p>
+                        <ul class="service-list">
+                            <li><i class="fa-solid fa-check"></i> Chemical balancing</li>
+                            <li><i class="fa-solid fa-check"></i> Algae treatment</li>
+                            <li><i class="fa-solid fa-check"></i> Filter & pump servicing</li>
+                        </ul>
+                    </div>
+                    <div class="service-hover-bg"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="why">
+        <div class="why-bg-pattern"></div>
+        <div class="container">
+            <div class="section-header light">
+                <div class="section-tag light">Why Jacema</div>
+                <h2 class="section-title">The Jacema Difference</h2>
+                <p class="section-desc">We don't just clean — we create and maintain environments where people thrive.</p>
+            </div>
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-icon"><i class="fa-solid fa-user-tie"></i></div>
+                    <h3>Trained Professionals</h3>
+                    <p>Every team member is vetted, trained and equipped with the right skills and tools to deliver exceptional results.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fa-solid fa-flask"></i></div>
+                    <h3>Eco-Safe Products</h3>
+                    <p>We use industry-grade, environmentally responsible cleaning agents that are safe for families, pets and the planet.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fa-solid fa-calendar-check"></i></div>
+                    <h3>Flexible Scheduling</h3>
+                    <p>One-off deep cleans or ongoing maintenance contracts — we work around your schedule, not the other way around.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fa-solid fa-headset"></i></div>
+                    <h3>Responsive Support</h3>
+                    <p>Our team is always reachable. Quick responses, clear communication, and a commitment to your satisfaction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio / Clients -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">Our Reach</div>
+                <h2 class="section-title">Trusted by Clients Across Lagos</h2>
+                <p class="section-desc">From residential estates to large commercial complexes — here's who we serve.</p>
+            </div>
+            <div class="client-categories">
+                <div class="client-cat">
+                    <div class="cat-icon"><i class="fa-solid fa-city"></i></div>
+                    <h4>Corporate Offices</h4>
+                    <p>Multinational offices, co-working spaces & corporate HQs</p>
+                </div>
+                <div class="client-cat">
+                    <div class="cat-icon"><i class="fa-solid fa-house-circle-check"></i></div>
+                    <h4>Residential Estates</h4>
+                    <p>Gated communities, apartments & private homes</p>
+                </div>
+                <div class="client-cat">
+                    <div class="cat-icon"><i class="fa-solid fa-helmet-safety"></i></div>
+                    <h4>Construction Companies</h4>
+                    <p>Post-build handover cleaning for developers</p>
+                </div>
+                <div class="client-cat">
+                    <div class="cat-icon"><i class="fa-solid fa-shop"></i></div>
+                    <h4>Retail & Hospitality</h4>
+                    <p>Hotels, restaurants, malls & retail outlets</p>
+                </div>
+                <div class="client-cat">
+                    <div class="cat-icon"><i class="fa-solid fa-stethoscope"></i></div>
+                    <h4>Healthcare Facilities</h4>
+                    <p>Clinics & medical offices requiring precision sanitation</p>
+                </div>
+                <div class="client-cat">
+                    <div class="cat-icon"><i class="fa-solid fa-school"></i></div>
+                    <h4>Schools & Institutions</h4>
+                    <p>Educational facilities maintained to hygiene standards</p>
+                </div>
+            </div>
+
+            <div class="process-section">
+                <h3>Our Process</h3>
+                <div class="process-steps">
+                    <div class="process-step">
+                        <div class="step-num">1</div>
+                        <h4>Inquiry</h4>
+                        <p>Contact us via phone, WhatsApp or our form</p>
+                    </div>
+                    <div class="process-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                    <div class="process-step">
+                        <div class="step-num">2</div>
+                        <h4>Site Assessment</h4>
+                        <p>We visit & assess your space at no charge</p>
+                    </div>
+                    <div class="process-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                    <div class="process-step">
+                        <div class="step-num">3</div>
+                        <h4>Custom Quote</h4>
+                        <p>Receive a detailed, transparent quote</p>
+                    </div>
+                    <div class="process-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                    <div class="process-step">
+                        <div class="step-num">4</div>
+                        <h4>We Deliver</h4>
+                        <p>Our team arrives, executes, and you inspect</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">Client Reviews</div>
+                <h2 class="section-title">What Our Clients Say</h2>
+            </div>
+            <div class="testimonials-grid">
+
+                <div class="testi-card">
+                    <div class="testi-quote"><i class="fa-solid fa-quote-left"></i></div>
+                    <p>"Jacema transformed our newly constructed office building into something truly presentable. The post-construction clean was thorough and professional. We'll definitely use them again."</p>
+                    <div class="testi-author">
+                        <div class="author-avatar">AO</div>
+                        <div class="author-info">
+                            <strong>Adebayo Okafor</strong>
+                            <span>Property Developer, VI</span>
+                        </div>
+                        <div class="testi-rating">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testi-card featured">
+                    <div class="testi-quote"><i class="fa-solid fa-quote-left"></i></div>
+                    <p>"We signed a 12-month facility management contract with Jacema for our estate. Best decision we made. The team is punctual, thorough, and always professional. Our residents love the difference."</p>
+                    <div class="testi-author">
+                        <div class="author-avatar">NE</div>
+                        <div class="author-info">
+                            <strong>Ngozi Eze</strong>
+                            <span>Estate Manager, Lekki</span>
+                        </div>
+                        <div class="testi-rating">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testi-card">
+                    <div class="testi-quote"><i class="fa-solid fa-quote-left"></i></div>
+                    <p>"The fumigation service was excellent. No smell, no mess — just results. Haven't had a single pest issue in months. Highly recommend Jacema to any homeowner in Lagos."</p>
+                    <div class="testi-author">
+                        <div class="author-avatar">TL</div>
+                        <div class="author-info">
+                            <strong>Tunde Lawal</strong>
+                            <span>Homeowner, Ikoyi</span>
+                        </div>
+                        <div class="testi-rating">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section id="cta-banner">
+        <div class="cta-inner">
+            <div class="cta-text">
+                <h2>Ready for a Cleaner, Healthier Space?</h2>
+                <p>Get a free consultation and custom quote. No obligation, no hidden fees.</p>
+            </div>
+            <div class="cta-actions">
+                <a href="tel:+2348000000000" class="btn btn-white">
+                    <i class="fa-solid fa-phone"></i> Call Now
+                </a>
+                <a href="https://wa.me/2348000000000" target="_blank" class="btn btn-green">
+                    <i class="fa-brands fa-whatsapp"></i> WhatsApp Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">Get In Touch</div>
+                <h2 class="section-title">Request a Quote</h2>
+                <p class="section-desc">Fill in the form and our team will get back to you within 24 hours.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <strong>Office Address</strong>
+                            <span>Lagos, Nigeria</span>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <strong>Call / WhatsApp</strong>
+                            <span>+234 800 000 0000</span>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <strong>Email</strong>
+                            <span>info@jacemaglobal.com</span>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i class="fa-solid fa-clock"></i>
+                        <div>
+                            <strong>Working Hours</strong>
+                            <span>Mon–Sat: 7am – 7pm</span>
+                        </div>
+                    </div>
+                    <div class="contact-socials">
+                        <a href="https://instagram.com" target="_blank" class="social-btn instagram" title="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" class="social-btn twitter" title="Twitter/X">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a href="https://wa.me/2348000000000" target="_blank" class="social-btn whatsapp" title="WhatsApp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                        <a href="https://facebook.com" target="_blank" class="social-btn facebook" title="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" class="social-btn linkedin" title="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Phone Number</label>
+                            <input type="tel" placeholder="+234 000 000 0000" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="email" placeholder="you@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label>Service Needed</label>
+                        <select required>
+                            <option value="" disabled selected>Select a service</option>
+                            <option>Post-Construction Cleaning</option>
+                            <option>Facility Management</option>
+                            <option>Residential Cleaning</option>
+                            <option>Commercial Cleaning</option>
+                            <option>Fumigation & Pest Control</option>
+                            <option>Gardening & Landscaping</option>
+                            <option>Swimming Pool Cleaning</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea rows="4" placeholder="Tell us about your space, location, and specific needs..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary full-width">
+                        Send Request <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                    <p class="form-note"><i class="fa-solid fa-lock"></i> Your information is safe with us. No spam.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-brand">
+                        <div class="footer-logo">
+                            <span class="logo-icon"><i class="fa-solid fa-leaf"></i></span>
+                            <div>
+                                <strong>JACEMA</strong>
+                                <small>Global Services</small>
+                            </div>
+                        </div>
+                        <p>Professional facilities management, cleaning and maintenance services across Lagos, Nigeria.</p>
+                        <div class="footer-socials">
+                            <a href="https://instagram.com" target="_blank" class="social-btn instagram" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://twitter.com" target="_blank" class="social-btn twitter" title="Twitter/X"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="https://wa.me/2348000000000" target="_blank" class="social-btn whatsapp" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="https://facebook.com" target="_blank" class="social-btn facebook" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://linkedin.com" target="_blank" class="social-btn linkedin" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-links-col">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">Post-Construction Cleaning</a></li>
+                            <li><a href="#services">Facility Management</a></li>
+                            <li><a href="#services">Residential Cleaning</a></li>
+                            <li><a href="#services">Commercial Cleaning</a></li>
+                            <li><a href="#services">Fumigation & Pest Control</a></li>
+                            <li><a href="#services">Gardening & Landscaping</a></li>
+                            <li><a href="#services">Pool Cleaning</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links-col">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#portfolio">Our Clients</a></li>
+                            <li><a href="#testimonials">Testimonials</a></li>
+                            <li><a href="#contact">Get a Quote</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links-col">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li><i class="fa-solid fa-location-dot"></i> Lagos, Nigeria</li>
+                            <li><i class="fa-solid fa-phone"></i> +234 800 000 0000</li>
+                            <li><i class="fa-solid fa-envelope"></i> info@jacemaglobal.com</li>
+                            <li><i class="fa-solid fa-clock"></i> Mon–Sat: 7am – 7pm</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 Jacema Global Services. All rights reserved.</p>
+                <p>Built with <i class="fa-solid fa-heart"></i> in Lagos</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
